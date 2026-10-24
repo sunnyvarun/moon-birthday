@@ -238,12 +238,10 @@ function Welcome({ onBegin }) {
           </button>
         ) : (
           <p className="invitation-hint">
-            Psst... tap the little stars ✨
           </p>
         )}
 
         <p className="invitation-footer">
-          Made of stardust, little dreams, and love.
         </p>
       </div>
     </section>
@@ -483,15 +481,15 @@ function Arrival({ onContinue }) {
 
           <header className="garden-heading">
             <p className="garden-eyebrow">
-              ✨ A LITTLE BIRTHDAY ADVENTURE ✨
+              ✨ A SMALL BIRTHDAY ADVENTURE ✨
             </p>
 
             <h1>
               {phase === "hunt"
-                ? "Find your birthday treats!"
+                ? "Find your birthday candies!"
                 : treeGrowing
                   ? "A heart is growing just for you..."
-                  : "A little birthday magic..."}
+                  : "A little magic...😘"}
             </h1>
 
             <p className="garden-description">
@@ -499,7 +497,7 @@ function Arrival({ onContinue }) {
                 ? "Look everywhere! Three little surprises are floating."
                 : treeGrowing
                   ? "Watch your very own heart tree grow, one blossom at a time."
-                  : "Something magical is on its way..."}
+                  : "Something is on its way..."}
             </p>
           </header>
 
@@ -586,7 +584,7 @@ function Arrival({ onContinue }) {
                 fontSize: `${12 + (i % 5) * 7}px`,
               }}
             >
-              {["💗", "✨", "♡", "⭐", "💕", "🌸", "🎀"][i % 7]}
+              {["💗", "✨", "♡", "⭐", "💕", "🌸", "🎀", "😘"][i % 7]}
             </span>
           ))}
           <div className="rain-center-message">
@@ -614,12 +612,12 @@ function Arrival({ onContinue }) {
             <h2 className="surprise-title">
               Happy Birthday,
               <br />
-              <span>My Dear Alekya Bhanu!</span>
+              <span>My Dear Bhanu Papa!</span>
             </h2>
 
             <p className="surprise-message">
               May your life sparkle like the stars, your heart bloom
-              with happiness, and every new year bring you beautiful
+              with happiness like the tree just before a moment, and every new year bring you beautiful
               surprises, sweet memories, and dreams coming true. 💗
             </p>
 
@@ -672,11 +670,6 @@ function LoveLetter({ onContinue, onBack }) {
         ))}
       </div>
 
-      <header className="top-note letter-top-note">
-        <span className="tiny-star">✧</span>
-        CHAPTER THREE · A MESSAGE FROM MY HEART
-        <span className="tiny-star">✧</span>
-      </header>
 
       <section className="letter-content" key="love-letter">
         
@@ -721,7 +714,7 @@ function LoveLetter({ onContinue, onBack }) {
               </span>
 
               <span className="envelope-caption">
-                A letter written just for you 💌
+                A words written just for you 💌
               </span>
             </button>
 
@@ -745,32 +738,32 @@ function LoveLetter({ onContinue, onBack }) {
               If I could give you one thing in this universe,
               it would be the ability to see yourself through
               my eyes. Maybe then you would understand how
-              incredibly special you are to me.
+              incredibly special you are.
             </p>
 
             <p>
               You make ordinary moments feel magical. You
               turn little memories into treasures, and somehow,
               even the quietest moments feel beautiful when
-              they have a place in our story.
+              they have a place in your story.
             </p>
 
             <p>
               If the Moon could keep a secret, I would ask it
               to hold every little wish I have made for you.
               If the stars could write, I would ask them to
-              write your name across the sky.
+              write your name in the sky.
             </p>
 
             <p>
               And if I could make one wish tonight, it would
               be that life gives you a thousand reasons to
-              smile, a thousand dreams to chase, and all the
+              smile smile smile, a thousand dreams to chase, and all the
               love your heart can hold.
             </p>
 
             <p className="letter-signoff">
-              Always, under the same moon. <span>♡</span>
+              Always, under the same sky. <span>♡</span>
             </p>
 
             <div className="letter-little-gift" aria-hidden="true">
@@ -797,7 +790,6 @@ function LoveLetter({ onContinue, onBack }) {
         </button>
       </section>
 
-      <Footer />
     </section>
   );
 }
@@ -834,76 +826,76 @@ function MoonJourney({ onBack, onFinish }) {
 
     const moonMessages = {
     2009: {
-      title: "A Tiny Spark ✨",
-      message: "Every beautiful journey begins with a little spark. This is your first little moon memory. ♡",
+      title: "A Little Silver Beginning 🌙",
+      message: " The year you were born, the Moon wore a tiny silver smile, welcoming a beautiful new soul into the world. And now, look at this Moon, I think the moon is lucky to have its twin on earth. ♡",
     },
     2010: {
-      title: "Little Stardust 🌙",
-      message: "If the stars could tell stories, this moon would have a sweet little secret of its own.",
+      title: "Your First Full Moon 🌕",
+      message: "The Moon glowed its brightest to celebrate your very 1st birthday, as if the whole night sky was in a party just for you. I guess even the Moon wanted to make your special B'day shine brighter!",
     },
     2011: {
-      title: "A Sky Full of Magic ⭐",
-      message: "Some moments may seem small, but they can make a whole universe feel brighter.",
+      title: "Your Own Kind of Glow 🌖",
+      message: "Just like this Moon, you have a soft glow that makes you beautiful, even though only some part of you shines brightly. To me, you look beautiful in every little way, just like the Moon with its dark part.",
     },
     2012: {
-      title: "Written in the Stars 💫",
-      message: "Imagine a little star saving its sparkle just to make this moment feel special.",
+      title: "When Darkness Meets Light 🌗",
+      message: "This time, the Moon's light and darkness have switched sides, just like life, where dark days can turn bright again. No matter which side of life you're on, my dear, I hope you always find your light and keep shining.",
     },
     2013: {
-      title: "A Little Wish ♡",
-      message: "If this moon could make one wish, it would be for this lovely little journey to keep shining.",
+      title: "A Little More Light & Hope 🌖 ",
+      message: "Even the dark part of you have a beauty that words can never fully explain, just like beauty of this Moon's dark side.",
     },
     2014: {
-      title: "The Dreamy Moon 🌟",
-      message: "Somewhere in this enormous universe, there's always room for one more beautiful memory.",
+      title: "A Beauty Only I Can See 🌑",
+      message: "Even when the Moon hides in darkness, You know? it's still there, just as I will never disappears from you, even on your hardest days.",
     },
     2015: {
-      title: "Cosmic Secrets ✨",
-      message: "This moon is keeping a pocketful of stardust and a tiny secret just for this moment.",
+      title: "A Little More of You 🌔",
+      message: "Your bright side is growing, and every little detail makes you more beautiful. Just like this Moon, you have a glow that makes it hard to look away.",
     },
     2016: {
-      title: "Moonbeam Magic 🌙",
-      message: "The night sky has a thousand lights, but every moon brings its own kind of wonder.",
+      title: "A Sliver of Hope 🌒",
+      message: "Even when most of the Moon is hidden, that little light still stands out. I hope you always hold on to your little spark, even when life gets hard.",
     },
     2017: {
       title: "My Little Constellation 💗",
-      message: "Every star has its own place in the sky, and every little moment has its place in a story.",
+      message: "A little curve of light, but still so lovely to look at. Sometimes, all it takes is your smile to make your whole day better, and i will be the reason of your smile.",
     },
     2018: {
-      title: "Orbiting Dreams 🪐",
-      message: "Let this moon be a reminder that there's always another little adventure waiting beyond the stars.",
+      title: "Moonbeam Magic 🌙",
+      message: "I wish you could see yourself through my eyes then you will know just how beautiful you are than this bright moon.",
     },
     2019: {
-      title: "A Sprinkle of Magic 💫",
-      message: "Sometimes the universe doesn't need grand fireworks. One tiny sparkle can be enough.",
+      title: "A Little Darkness Returns 🌒",
+      message: "The Moon is slowly showing its darkness again, reminding you that hardest days always come. I hope you never stop believing in yourself.",
     },
     2020: {
-      title: "The Moon Still Shines 🌙",
-      message: "Even when the world feels different, there's something comforting about looking up at the same moon.",
+      title: "The Moon Still Shines 🌖",
+      message: "Even when the world feels different, there's something comforting about looking up at the same moon and Thats how i look you.",
     },
     2021: {
-      title: "Another Star in Our Sky ✨",
-      message: "One more year, one more little light, and one more reason to keep exploring this universe.",
+      title: "Almost Full of Light 🌖",
+      message: "The Moon is nearly full, with just a little shadow left. I remind you that even when life isn't perfect, there's still so much beauty to be proud of.",
     },
     2022: {
-      title: "Stardust Wishes 🎀",
-      message: "Sending a little imaginary stardust your way, with a wish for more laughter and lovely memories.",
+      title: "A Tiny Silver Promise 🌘",
+      message: "This Moon looks like it's hiding a tiny smile, probably because it knows a little secret about you.",
     },
     2023: {
-      title: "A Constellation of Moments ⭐",
-      message: "Think of every happy moment as a star. Together, they make a sky worth remembering.",
+      title: "Caught in Between. 🌔",
+      message: "Half dressed for the spotlight and half ready for bed. This Moon is just like someone who can't decide whether to go out or stay home.",
     },
     2024: {
-      title: "A Moonlit Memory ♡",
-      message: "Some memories deserve their own little place among the stars, glowing softly for years to come.",
+      title: "Two Sides of You 🌗",
+      message: "You have a good side that makes me adore you and a little mischievous side that sometimes drives me crazy. Honestly, I wouldn't change either, because both are what make you 'you'.",
     },
     2025: {
-      title: "The Next Adventure 🌌",
-      message: "The universe is enormous, the stars are endless, and there are still so many little wonders to discover.",
+      title: "Hide-and-seek 🌒",
+      message: "The Moon really said, 'Not today, everyone,' and disappeared into the darkness. Honestly, a little hide-and-seek never hurt anyone, but hurts me.",
     },
     2026: {
-      title: "Our Sky Goes On 💖",
-      message: "We've reached the final moon in this little journey, but the universe has plenty more surprises waiting.",
+      title: "My View Goes On 👀",
+      message: "Finally today,It's your birthday, and if the Moon is giving you this little glow as a gift, consider this my treat to you: a reminder that no matter how beautiful the Moon looks tonight, you'll always be my fav view.",
     },
   };
 
@@ -982,7 +974,7 @@ function MoonJourney({ onBack, onFinish }) {
         aria-label="Return to the love letter"
       >
         <span aria-hidden="true">↶</span>
-        <span>Our little universe</span>
+        <span>Your little universe</span>
       </button>
 
       {!started ? (
@@ -1010,19 +1002,19 @@ function MoonJourney({ onBack, onFinish }) {
           </span>
 
           <p className="moon-intro-kicker">
-            JUST YOU, ME & THE MOON
+            JUST YOU & THE MOON
           </p>
 
           <h2 className="moon-intro-title">
-            Meet me
+            Eighteen Years,
             <br />
-            <span>under the stars.</span>
+            <span>Eighteen Shades of the Moon.</span>
           </h2>
 
           <p className="moon-intro-copy">
             Eighteen Moons. Eighteen little moments.
             <br />
-            One universe that feels a little more like ours. ♡
+            let's travel back through the years and see how the Moon looked on each of your birthdays. ♡
           </p>
 
           <button
@@ -1036,7 +1028,6 @@ function MoonJourney({ onBack, onFinish }) {
           </button>
 
           <p className="moon-intro-hint">
-            Psst... a little surprise is waiting for you
           </p>
         </div>
       ) : (
@@ -1099,7 +1090,7 @@ function MoonJourney({ onBack, onFinish }) {
               </span>
 
               <div className="moon-year-stamp">
-                <span>OUR MOON NO.</span>
+                <span>YOUR MOON NO.</span>
                 <strong>
                   {String(currentNumber).padStart(2, "0")}
                 </strong>
@@ -1108,24 +1099,24 @@ function MoonJourney({ onBack, onFinish }) {
 
             <div className="moon-memory-message">
               <p className="moon-message-eyebrow">
-                A NEW LITTLE WORLD ✦
+                
               </p>
 
               <h2 className="moon-year-title">
                 Moonlight
                 <br />
-                <span>of {year}.</span>
+                <span>of oct 24 - {year}.</span>
               </h2>
 
               <p className="moon-year-subtitle">
-                One Moon, one moment, one more little reason to smile. ♡
+                One Moon,  one more reason to smile. ♡
               </p>
 
               <div className="moon-surprise-area">
                 {!starCaught ? (
                   <div className="moon-game-prompt">
                     <p className="moon-game-instruction">
-                      A shooting star has a little gift for you...
+                      A shooting star has a beautiful words for you...
                     </p>
 
                     <button
@@ -1136,10 +1127,10 @@ function MoonJourney({ onBack, onFinish }) {
                       onClick={catchStar}
                       disabled={catchingStar}
                     >
-                      <span className="catch-star-icon">✦</span>
+                      <span className="catch-star-icon"></span>
                       {catchingStar
                         ? "A little magic..."
-                        : "Catch the little star"}
+                        : "Catch the star and read its message! "}
                       <span aria-hidden="true">⋆｡°✩</span>
                     </button>
                   </div>
@@ -1178,7 +1169,7 @@ function MoonJourney({ onBack, onFinish }) {
                   >
                     <span>✦</span>
                     {year === lastYear
-                      ? "Continue our story"
+                      ? "Continue your day"
                       : "Find the next Moon"}
                     <span>♡</span>
                   </button>
@@ -1218,11 +1209,9 @@ function MoonJourney({ onBack, onFinish }) {
 
 
 function FinalReveal({ onReplay, onMoonJourney }) {
-  const [musicOn, setMusicOn] = useState(false);
-  const [musicError, setMusicError] = useState(false);
 
   function toggleMusic() {
-    const audio = document.getElementById("birthday-audio");
+    
     if (!audio) return;
 
     if (musicOn) {
@@ -1246,15 +1235,6 @@ function FinalReveal({ onReplay, onMoonJourney }) {
     <>
       <Moon />
 
-      <audio
-        id="birthday-audio"
-        src="/audio/birthday.mp3"
-        loop
-        preload="none"
-        onPause={() => setMusicOn(false)}
-        onPlay={() => setMusicOn(true)}
-        onError={() => setMusicError(true)}
-      />
 
       <header className="top-note">
         <span className="tiny-star">✧</span>
@@ -1290,7 +1270,7 @@ function FinalReveal({ onReplay, onMoonJourney }) {
   <div className="love-photo-heart" aria-hidden="true">♡</div>
   <img
     className="birthday-person-photo"
-    src="/images/moon-photo.jpg"
+    src="./public/moon/moon-photo.jpg"
     alt="A special birthday memory"
   />
   <span className="photo-frame-caption">♡ A little piece of my universe ♡</span>
@@ -1310,19 +1290,18 @@ function FinalReveal({ onReplay, onMoonJourney }) {
         </p>
 
         <p className="final-message">
-          May your days be filled with gentle happiness,
-          your dreams find their way to the stars, and your
+          To the girl who's shining brighter in the pic as it like a moon in the sky, may your days be filled with happiness,
+          your dreams find their way to the moon, and your
           heart always find reasons to smile.
         </p>
 
         <p className="final-message">
           And whenever you look up at the Moon, I hope you
-          remember that somewhere beneath this same sky,
-          there is a little universe made just for you.
+          remember how beautiful you are and how brighter you are.
         </p>
 
         <p className="final-blessing">
-          May Allah bless you with happiness, peace, and
+          May God bless you with peace and
           beautiful moments in every year ahead. ♡
         </p>
 
@@ -1358,6 +1337,32 @@ function FinalReveal({ onReplay, onMoonJourney }) {
 
 export default function App() {
   const [chapter, setChapter] = useState("welcome");
+  const [musicOn, setMusicOn] = useState(false);
+  const audioRef = useRef(null);
+
+  async function startMusic() {
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    try {
+      await audio.play();
+      setMusicOn(true);
+    } catch (error) {
+      console.error("Could not start birthday music:", error);
+    }
+  }
+
+  function toggleMusic() {
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    if (audio.paused) {
+      startMusic();
+    } else {
+      audio.pause();
+      setMusicOn(false);
+    }
+  }
 
   function goToChapter(nextChapter) {
     setChapter(nextChapter);
@@ -1366,10 +1371,47 @@ export default function App() {
 
   return (
     <main className={`universe chapter-${chapter}`}>
-      <Atmosphere />
+  <audio
+    ref={audioRef}
+    src="/audio/birthday.mp3"
+    loop
+    preload="auto"
+    onPlay={() => setMusicOn(true)}
+    onPause={() => setMusicOn(false)}
+  />
+
+  <button
+    type="button"
+    onClick={toggleMusic}
+    aria-label={musicOn ? "Pause birthday music" : "Play birthday music"}
+    style={{
+      position: "fixed",
+      right: "18px",
+      bottom: "18px",
+      zIndex: 9999,
+      borderRadius: "50%",
+      width: "48px",
+      height: "48px",
+      border: "1px solid rgba(255,255,255,0.35)",
+      background: "rgba(35,20,60,0.85)",
+      color: "white",
+      cursor: "pointer",
+      fontSize: "20px",
+      backdropFilter: "blur(10px)"
+    }}
+  >
+    {musicOn ? "Ⅱ" : "♫"}
+  </button>
+
+  <Atmosphere />
 
       {chapter === "welcome" && (
-        <Welcome onBegin={() => goToChapter("arrival")} />
+        <Welcome
+  onBegin={() => {
+    startMusic();
+    goToChapter("arrival");
+  }}
+/>
       )}
 
       {chapter === "arrival" && (

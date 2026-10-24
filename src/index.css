@@ -3872,7 +3872,7 @@ button, a { touch-action: manipulation; }
 
 @media (max-width: 420px) {
   .moon-journey-page {
-    padding: 62px 15px 18px;
+    padding: 54px 15px 20px;
   }
 
   .moon-exit-button {
@@ -4199,17 +4199,40 @@ button, a { touch-action: manipulation; }
   }
 }
 
-/* Fix unwanted blank space below Moon Journey content */
+
+
+/* Final Moon Journey height and spacing fix */
 .moon-journey-page {
-  min-height: 0 !important;
-  height: auto !important;
-  padding-bottom: 12px !important;
+  min-height: 100svh;
+  height: auto;
+  padding-bottom: 0 !important;
+}
+
+.moon-journey-page .moon-intro-screen,
+.moon-journey-page .moon-memory-screen {
+  min-height: 0;
+  height: auto;
 }
 
 .moon-journey-page .moon-journey-bottom {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
+
+@media (max-width: 600px) {
+  .moon-journey-page {
+    min-height: 100svh;
+    padding-bottom: 0 !important;
+  }
+
+  .moon-journey-page .moon-intro-screen,
+  .moon-journey-page .moon-memory-screen {
+    min-height: 0;
+    height: auto;
+  }
+}
+
+
 
 /* =========================================
    FINAL REVEAL — BIRTHDAY CELEBRATION
@@ -4619,6 +4642,33 @@ button, a { touch-action: manipulation; }
   }
 }
 
+/* Keep the cosmic background filling the entire mobile screen */
+
+.universe {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100svh;
+  isolation: isolate;
+}
+
+@media (max-width: 600px) {
+  .universe {
+    min-height: 100vh;
+    min-height: 100svh;
+    background-color: #0b0d22;
+  }
+
+  .chapter-welcome,
+  .chapter-arrival,
+  .chapter-love,
+  .chapter-moon,
+  .chapter-final {
+    min-height: 100vh;
+    min-height: 100svh;
+  }
+}
+
+
 /* Romantic birthday photo frame */
 
 .love-photo-frame {
@@ -4637,16 +4687,17 @@ button, a { touch-action: manipulation; }
     0 0 24px rgb(239 154 219 / 22%),
     0 0 60px rgb(169 124 223 / 12%),
     inset 0 0 20px rgb(255 255 255 / 4%);
+    
 }
 
 .birthday-person-photo {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 3/;
   object-fit: cover;
   object-position: center;
   border-radius: 16px;
-  border: 1px solid rgb(255 222 244 / 35%);
+  border: 1px solid rgb(255 222 244 / 35%); 
 }
 
 .love-photo-heart {
@@ -4675,7 +4726,7 @@ button, a { touch-action: manipulation; }
   font-family: Georgia, "Times New Roman", serif;
   font-size: 0.88rem;
   font-style: italic;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 @media (max-width: 600px) {
