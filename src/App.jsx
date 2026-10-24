@@ -1006,9 +1006,9 @@ function MoonJourney({ onBack, onFinish }) {
           </p>
 
           <h2 className="moon-intro-title">
-            Eighteen Years,
+            18 years,
             <br />
-            <span>Eighteen Shades of the Moon.</span>
+            <span>18 shades of the Moon.</span>
           </h2>
 
           <p className="moon-intro-copy">
