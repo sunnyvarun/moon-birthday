@@ -1317,14 +1317,6 @@ function FinalReveal({ onReplay, onMoonJourney }) {
           </button>
         </div>
 
-        {musicError && (
-          <p className="music-note" role="status">
-            Music couldn't be loaded. Check that
-            public/audio/birthday.mp3 exists, or continue
-            without music.
-          </p>
-        )}
-
         <button className="back-button" onClick={onMoonJourney}>
           ← Revisit the Moon journey
         </button>
